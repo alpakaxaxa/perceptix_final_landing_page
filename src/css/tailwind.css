@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+ @layer utilities{
+    .active {
+        right: 0 !important;
+        z-index: 999;
+    } 
+
+}
