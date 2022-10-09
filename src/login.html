@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="font-inter">
+    <header class="relative z-30 bg-transparent py-4 px-4">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <a href="#"
+            ><figure>
+              <img class="h-10 lg:h-auto" src="./images/logo.png" alt="logo" />
+            </figure>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="px-4 pb-16 pt-10 md:py-14">
+        <div class="container mx-auto">
+          <h1
+            class="pb-8 text-4xl font-bold !leading-[1.3] text-black md:text-5xl lg:text-6xl xl:text-[64px] xl:!leading-[1.2]"
+          >
+            Registration
+          </h1>
+          <p class="text-xl md:text-2xl">
+            Create a free account or <a href="#" class="underline">log in</a>
+          </p>
+          <form action="https://beloki.app.n8n.cloud/webhook-test/daead96b-e10a-493b-9076-b0b407394127" method="post">
+          <div class="mt-10 grid w-[1026px] max-w-full gap-5 sm:gap-8">
+            <div class="space-y-2.5 sm:space-y-3">
+              <label
+                for="email"
+                class="inline-block text-xl font-semibold md:text-2xl"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full border border-black py-2 px-5 text-lg text-black focus:outline-none sm:py-3 md:text-2xl"
+              />
+            </div>
+            <div class="space-y-2.5 sm:space-y-3">
+              <label
+                for="Password"
+                class="inline-block text-xl font-semibold md:text-2xl"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="Password"
+                name="password"
+                class="w-full border border-black py-2 px-5 text-lg text-black focus:outline-none sm:py-3 md:text-2xl"
+              />
+            </div>
+            <div class="flex items-center gap-3 sm:gap-6 py-2">
+              <input
+                type="checkbox"
+                id="news"
+                class="h-8 w-8 border-black "
+              />
+              <label
+                for="news"
+                class="inline-block text-base font-normal text-black md:text-xl xl:!leading-[1.3]"
+                >I dont want to receive newsletter from Perceptix</label
+              >
+            </div>
+            <div>
+              <button
+                type="submit"
+                class="inline-block w-full bg-black px-10 py-3 text-xl text-white hover:bg-opacity-80 sm:w-auto md:text-2xl"
+              >
+                Sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/custom.js"></script>
+  </body>
+</html>
